@@ -59,4 +59,44 @@
 // paraElement.style.backgroundColor="red";
 // paraElement.style.color="white";
 
+// let secElement = document.getElementById('sdiv');
+// secElement;
+// secElement.style.cssText;
+// secElement.style.cssText = "background-color :dark blue ; color: white";
+// secElement;
+
+
+//set Attribute 
+// let firstElement = document.querySelector('#fdiv');
+// firstElement;
+// firstElement.setAttribute('class','firstDivClass');
+// firstElement
+// firstElement.setAttribute('class','secondDivClass');
+// firstElement
+// firstElement.setAttribute("style","padding : 0.111 rem;margin:1rem;");
+// firstElement
+
+//className 
+// let fparagraph = document.getElementById('fpara');
+//  fparagraph;
+//  fparagraph.className;
+//  fparagraph.className="Gohan Bubul";
+//  fparagraph.className;
+
+
+// //classList
+// let fparagraph = document.querySelector('#fpara');
+// fparagraph;
+// fparagraph.classList;
+// fparagraph.classList.add('thirdClass');
+// fparagraph.classList;
+// fparagraph.classList.remove('firstClass');
+// fparagraph.classList;
+// fparagraph.classList.toggle('secondClass');
+// fparagraph.classList;
+// fparagraph.classList.toggle('secondClass');
+// fparagraph.classList;
+// fparagraph.classList.contains('firstClass');
+// fparagraph.classList;
+
 
