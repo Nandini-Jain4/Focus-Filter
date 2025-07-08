@@ -26,6 +26,37 @@
 // element.textContent;
 // element.innerText;
 //after adding 3rd para [style = "dispaly : none"]
-let element = document.querySelector('#fdiv');
-element.textContent;
-element.innerText;
+// let element = document.querySelector('#fdiv');
+// element.textContent;
+// element.innerText;
+// let fheading = document.createElement('h1');
+// fheading.textContent = "Practicing append(DOM)";
+// fheading;
+// let bodyTag = document.querySelector('body');//Parent of fheading 
+// bodyTag.appendChild(fheading)//body ke End mai append karega 
+
+//insertion at a position 
+// let mydiv = document.querySelector('#mydiv');
+// mydiv;
+// let newElement = document.createElement('span');
+// newElement.textContent="Newly created element";
+// mydiv.insertAdjacentElement("beforebegin",newElement);
+// mydiv.insertAdjacentElement("afterbegin",newElement);
+// mydiv.insertAdjacentElement("beforend",newElement);
+// mydiv.insertAdjacentElement("afterend",newElement);
+
+
+//remove 
+// let parent = document.querySelector('#mydiv');
+// let child = document.querySelector('#fpara');
+// parent.removeChild(child);
+
+//css
+//practiceHTML3.html
+// let paraElement = document.getElementById('spara');
+// paraElement;
+// console.log(paraElement.style);
+// paraElement.style.backgroundColor="red";
+// paraElement.style.color="white";
+
+
