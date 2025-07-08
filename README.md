@@ -17,24 +17,34 @@ The tool work 100% client side so user privacy is protected.
 It empowers the user- it does not manipulate the feed for profit(unlike social media algorithem)</b>
 <br>
 <b>Thank you</b>
+---------
+
+## Project Status & Practice Progress
+
+Sharpened core **JavaScript** skills — especially **DOM manipulation** and **event handling** — to build the filtering logic for the **Focus-Filter** browser extension.
+
 ---
-<b>Project Status & Practice Progress</b>
-Current Focus : Sharpening core JavaScript skills — especially DOM manipulation and event handling — to build the filtering logic for the Focus-Filter browser extension.
 
-<b>Covered So Far</b>
-DOM Selectors: querySelector, getElementById, etc.
-Style & Attributes: .style, .cssText, .className, .classList, .setAttribute()
-Events: addEventListener(), removeEventListener(), event phases, default actions
-Other Topics: window.open(), window.close(), monitorEvents(), unmonitorEvents()
+## Covered So Far
+- **DOM Selectors:** `querySelector`, `getElementById`, etc.
+- **Style & Attributes:** `.style`, `.cssText`, `.className`, `.classList`, `.setAttribute()`
+- **Events:** `addEventListener()`, `removeEventListener()`, event phases, default actions
+- **Other Topics:** `window.open()`, `window.close()`, `monitorEvents()`, `unmonitorEvents()`
+- ✅ **Focus-Filter Demo:** Blurs distracting posts on a mock social media feed
 
-<b>Why This Matters</b>
-These hands-on practices ensure our extension can detect, modify, and filter web page elements in real time, helping users block distracting or irrelevant content on platforms like Instagram, YouTube, and Facebook.
+---
 
-<b>Practice Files Updated</b>
-practiceJavaScript(DOM).js
-practiceJavaScript(BrowserEvents).js
-practiceHTML3.html
-practiceHTML4.html
+## Focus-Filter Demo Files
+- `Filter.html`
+- `FilterLogic.js`
 
-PPT added for reference of my Project.
-Continuous sharpening of these fundamentals ensures my final hackathon solution is solid, user-focused, and practical!
+---
+
+## Why This Matters
+These hands-on practices ensure the extension can **detect, modify, and filter** web page elements in real time — helping users block distracting or irrelevant content(varies person to person) on platforms like Instagram, YouTube, and Facebook.
+
+📄 **PPT** added for project reference — ready for review by **1 PM, 8 July 2025**.
+
+---
+
+**Continuous learning and practical testing** ensure the final hackathon solution is **solid, user-focused, and effective!** 🚀
