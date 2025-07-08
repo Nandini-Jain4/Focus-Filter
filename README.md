@@ -18,14 +18,23 @@ It empowers the user- it does not manipulate the feed for profit(unlike social m
 <br>
 <b>Thank you</b>
 ---
-## Project Status & Practice Progress
+<b>Project Status & Practice Progress</b>
+Current Focus : Sharpening core JavaScript skills — especially DOM manipulation and event handling — to build the filtering logic for the Focus-Filter browser extension.
 
-To strengthen the core logic for our Focus-Filter browser extension, I’m actively practicing essential JavaScript and DOM manipulation concepts.
+<b>Covered So Far</b>
+DOM Selectors: querySelector, getElementById, etc.
+Style & Attributes: .style, .cssText, .className, .classList, .setAttribute()
+Events: addEventListener(), removeEventListener(), event phases, default actions
+Other Topics: window.open(), window.close(), monitorEvents(), unmonitorEvents()
 
-**Practice includes:**
-- **DOM selectors:** `querySelector`, `querySelectorAll`, `getElementById`, `getElementsByClassName`, `getElementsByTagName`
-- **Content manipulation:** `innerText`, `textContent`, `innerHTML`
-- **Hands-on practice files:** `practiceJavaScript.js`, `practiceHTML1.html`, `practiceHTML2.html`
+<b>Why This Matters</b>
+These hands-on practices ensure our extension can detect, modify, and filter web page elements in real time, helping users block distracting or irrelevant content on platforms like Instagram, YouTube, and Facebook.
 
-This practical learning ensures our final extension is technically sound and can effectively block or hide distracting elements on web pages.
+<b>Practice Files Updated</b>
+practiceJavaScript(DOM).js
+practiceJavaScript(BrowserEvents).js
+practiceHTML3.html
+practiceHTML4.html
 
+PPT added for reference of my Project.
+Continuous sharpening of these fundamentals ensures my final hackathon solution is solid, user-focused, and practical!
