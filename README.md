@@ -31,7 +31,8 @@ Sharpened core **JavaScript** skills — especially **DOM manipulation** and **e
 - **Events:** `addEventListener()`, `removeEventListener()`, event phases, default actions
 - **Other Topics:** `window.open()`, `window.close()`, `monitorEvents()`, `unmonitorEvents()`
 - ✅ **Focus-Filter Demo:** Blurs distracting posts on a mock social media feed
-- Learned and practiced JSON 
+- Learned and practiced JSON .
+- Learned and practiced local Storage in JavaScript  .
 ---
 
 ## Focus-Filter Demo Files
@@ -45,6 +46,10 @@ Sharpened core **JavaScript** skills — especially **DOM manipulation** and **e
                           According to StackOverFlow : "We cannot comment in JSON because JSON is data-only. If you include a comment, then it must be data too."
                           But then also I tried comment some lines of code just like in JavaScript for my understanding.
                           Sorry for this confusion created beacuse of comments (//).
+
+## Local Strorage Practice Files
+- `localStorage_RelatedMethodsHTML.html`
+- `localStorage_RelatedMethodsJavaScript.js`
 ---
 
 ## Why This Matters
