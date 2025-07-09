@@ -1,0 +1,46 @@
+{
+    "_comment":"key value pairs, cannot use single quotes",
+    "name" : "Harry",
+    "score":11.25,
+    "isAdmin":false
+    
+}
+
+myJson = `{
+    "_comment":"Browser = F12 -> inspect",
+    "name" : "Harry",
+    "score":11.25,
+    
+}`;
+JSON.parse(myJson);
+// I know its not  a correct way of - comment 
+// myJson JSON.parse() ki help se javaScript ke object mai convert ho jata hai 
+
+myyJson2 = `{
+    "_comment1":"Browser = F12 -> inspect",
+    "name" : "Harry",
+    "score":11.25,
+    "isAdmin":false,
+    "license": null,
+    "shopItems":["food","clothes","shoes"],
+    "_comment2":"JSOn ke andar aur JSOn nested by ddali ja sakti hai",
+    "myObject":{
+        "name":"nested",
+        "marks":45,
+        "shopItems2":["food","clothes",{"a":true}]
+    },
+    "_comment3":"shopItems2 ka index 2 par ek object hai => isme bhi hum single quote use nahi kar sakte hai ",
+    "_comment4":"last item ke baad aagr app comma lagate ho then json tolerate nahi akrti hai , apke json ko invalid json ghoshit kar diya jata hai "
+}`;
+JSON.parse(myyJson2);
+parsed =JSON.parse(myyJson2); 
+// parsed ki help se app cheeze access kar sakte ho myyJson ki 
+parsed["isAdmin"];
+parsed["shopItems"][2];
+parsed["myObject"]["shopItems2"];
+parsed["myObject"]["shopItems2"][0];
+parsed["myObject"]["shopItems2"][1];
+parsed["myObject"]["shopItems2"][2];//error nahi dega 
+parsed["myObject"]["shopItems2"]["a"];//error dega undefined kahega 
+parsed["myObject"]["shopItems2"][2]["a"];//error nahi dega   => key - a  ki value - true dega 
+
