@@ -31,20 +31,27 @@ Sharpened core **JavaScript** skills — especially **DOM manipulation** and **e
 - **Events:** `addEventListener()`, `removeEventListener()`, event phases, default actions
 - **Other Topics:** `window.open()`, `window.close()`, `monitorEvents()`, `unmonitorEvents()`
 - ✅ **Focus-Filter Demo:** Blurs distracting posts on a mock social media feed
-
+- Learned and practiced JSON 
 ---
 
 ## Focus-Filter Demo Files
 - `Filter.html`
 - `FilterLogic.js`
-
+  
+## JSON Practice Files
+- `jsonChaiWithCode.js`
+- `jsonCodeWithHarry.json`
+- `jsonCodeWithHarry.json` <b>This file contains a error</b>,
+                          According to StackOverFlow : "We cannot comment in JSON because JSON is data-only. If you include a comment, then it must be data too."
+                          But then also I tried comment some lines of code just like in JavaScript for my understanding.
+                          Sorry for this confusion created beacuse of comments (//).
 ---
 
 ## Why This Matters
 These hands-on practices ensure the extension can **detect, modify, and filter** web page elements in real time — helping users block distracting or irrelevant content(varies person to person) on platforms like Instagram, YouTube, and Facebook.
 
-📄 **PPT** added for project reference — ready for review by **1 PM, 8 July 2025**.
+**PPT** added for project reference — ready for review by **1 PM, 8 July 2025**.
 
 ---
 
-**Continuous learning and practical testing** ensure the final hackathon solution is **solid, user-focused, and effective!** 🚀
+**Continuous learning and practical testing** ensure the final hackathon solution is **solid, user-focused, and effective!**
